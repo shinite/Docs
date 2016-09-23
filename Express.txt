@@ -1,0 +1,10 @@
+Express
+
+module, npm for building web server.
+
+
+npm install
+sudo npm install express-generator -g
+sudo npm install nodemon -g
+express
+nodemon ./bin/www

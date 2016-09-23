@@ -1,0 +1,24 @@
+mongo db:
+
+Database server- it can have multiple dbs
+open source
+scalable in nature: horizontal(mongo uses it) and vertical(rdbms,olap..etc)
+document based db
+high performance
+Trade off
+
+
+use dbname
+db.dbname.insert({key:value})
+db.dbname.find().pretty()
+db.dbTest.update({},{$push:{"evaluation":{"hello":"definetly"}}});
+show collections
+
+MongoDb <----------------------------> RDBMS
+database  <---------------------------->Database
+collection  <---------------------------->table
+document <----------------------------->rows
+key	<----------------------------->column
+
+
+mongoose used for creating schema dat defines the structure of the database.

@@ -1,0 +1,8 @@
+Component Lifecycle
+
+Mounting: Initial Rendering ->  getInitialState(1),getDefaultProps (1), ComponentWillMount, render,ComponentDidMount(ajax call, data struc. etc)
+
+Updating: Props Changes :ComponentWilllRecieveProps, ShouldComponentUpdate, ComponentWillUpdate ,render,ComponentDidUpdate 
+State Changes: all methods except willrecieveprops
+
+Unmounting:componentWillUnmount

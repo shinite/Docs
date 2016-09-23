@@ -1,0 +1,13 @@
+Router is a react component that keeps URL in sync with UI.
+
+URL<-------sync--------->UI
+
+looks for matching path dat is mapped to a component. hence for a particular URL it displays the mapped componnent(UI)
+
+Route maps a UI path to component.
+
+Route params:
+
+Url parameters: /home,/about
+
+Query parameters: ?s="bla bla"

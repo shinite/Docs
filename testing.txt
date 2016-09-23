@@ -1,0 +1,32 @@
+TDD
+Peer Programming
+BDD: for business specs
+
+
+Test Suit: Logical grouping of test cases which belog to particualar portion of app or the entire app.
+
+-Test Suit
+     -Test cases
+         -Test/Assertions(More Test more bugs are handled...this is cold coverage)
+
+Propular Framework used in this is
+
+MOCHA: Testing Framework, sandbox evs to test and run your app.
+    -has Test suit using describe() , 
+    - Test cases using it(),
+    - write our tests using assertion library : of 3 types: should type,expect type,assert types.
+                   A popular Asserton library is CHAI
+
+supertest- Headless Brower - PHANTOM JS, since a browser will be needed so that this process is automated.
+
+
+sudo npm install mocha -g
+
+npm install chai supertest --save-dev
+
+
+Other popular frameworks are Jasmine(both test runner and assertion library),Karma (just a test runner)
+
+
+	
+

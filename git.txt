@@ -1,0 +1,12 @@
+fork
+
+git clone <my url>
+origin -> our url
+git remote add upstream <url of repository we are forking from>
+
+git add <wat we changed>
+same steps
+
+in your git account
+new pull req.
+

@@ -1,0 +1,17 @@
+vagrant halt in git bash to shut down the machine
+exit to come out of vagrant
+vagrant ssh to enter vagrant
+vagrant up will only happen inside d:/workspace, it is to put on the virtual machine.
+ssh-> secure shell to get inside secure shell of the virtual machine
+since all our files are inside vagrant we need to go to cd /vagrant.
+go inside exercise1 and den run the http-server. so that the required file can be executed.
+In order to connect outside we have two adaptors in the vm. and there is a internal local host 127.0.0.1
+to run in either one of the port we use
+wen we run http-server it listens to two adaptors: the external adap. and the internal adapt.
+vagrant has done the virtural networking for us.
+http-server -a 127.0.0.1(the ip of local ) we wont b able to access in the browser while for 10.0.2.15 it will b working
+now instead of using localhost we can use our devices' ip
+
+so  the 10.0.2.15 (external adaptor)is connected to the outside ports but the internal adaptr is not connected.
+
+vagrant helps to create a disposable evs.

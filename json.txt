@@ -1,0 +1,10 @@
+DATA MUNGING:
+CSV->FILTER->MANIPULATE->AGGREGATE->DIFFERENT JSON's for different charts
+
+DATA  VIZUALIZATAION
+JSON->D3->GRAPHS
+
+read a file.. using fs core module of node.js
+use readline interface core module
+objects->arrays
+json

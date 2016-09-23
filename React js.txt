@@ -1,0 +1,12 @@
+React JS
+Java Script Library
+Component based architechture Parent child relationship
+SPA
+modal data: Props and States
+Virtual Dom-speed inc. 
+
+
+
+Modularity 
+Testing
+Reusability

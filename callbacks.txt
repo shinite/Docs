@@ -1,0 +1,24 @@
+call backs
+a function dat can be passed as a argument to another function
+
+the enclosing function can invoke the callback at a later time.
+
+var add=function(x,y){
+log(x+y)}
+
+var sub=function(x,y){
+log(x-y)}
+
+function  operation(a,b,callback){
+log("do something")
+
+callback(a,b)
+}
+
+operation(10,4,add);
+
+operation(20,4,sub);
+
+output:
+14
+16
